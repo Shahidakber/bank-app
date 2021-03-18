@@ -10,7 +10,7 @@ import { DataService } from '../services/data.service';
 export class LoginComponent implements OnInit {
 
 accno="Enter Username"
-pwd="password"
+pwd=""
 
 
   constructor(private router:Router,private dataservice:DataService)

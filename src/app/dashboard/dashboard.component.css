@@ -7,7 +7,7 @@ h1{
    
   
     .back {
-      /* background-image: url("newhome.jpg") ; */
+      background-image: url("newhome.jpg") ;
       image-resolution: 1280*768;
       width: 100%;
        /* Full height */
