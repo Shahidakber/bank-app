@@ -1,0 +1,44 @@
+<div class="back">
+    <div class="container">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <h1 style="text-align: center;">Welcome to ABC Bank</h1>
+        </div>
+        <div class="col-4"></div>
+
+
+
+
+      </div>
+
+      <div class="div-center">
+
+
+        <div class="content">
+          <form>
+            <div class="mb-3">
+              <label for="Account NO" class="form-label">Account No:</label>
+              <!-- <input [value]="uname" (change)="getUsername($event)" id="acno" type="text" class="form-control"> -->
+              <input [(ngModel)]="accno" name="accno" id="acno" type="text" class="form-control">
+              <div id="emailHelp" class="form-text">We'll never share your account number with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <!-- <input (change)="getPassword($event)"type="password" class="form-control" id="pwd"> -->
+              <input [(ngModel)]="pwd" name="password" type="password" class="form-control" id="pwd">
+            </div>
+
+            <button type="button" (click)="login()" class="btn btn-primary">Submit</button>
+            <a routerLink="register">Registration</a>
+          </form>
+        </div>
+
+
+        
+      </div>
+
+
+
+
+    </div>

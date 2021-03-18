@@ -1,0 +1,67 @@
+
+h1{
+    color: white;
+    padding-top:3%;
+    font-family:Cambria;
+  }
+   
+  
+    .back {
+      /* background-image: url("newhome.jpg") ; */
+      image-resolution: 1280*768;
+      width: 100%;
+       /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      position: absolute; 
+      top: 0;
+      bottom: 0;
+    }
+     
+    .div-center {
+      width: 400px;
+      height: 400px;
+      background-color: #fff;
+     
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      max-width: 100%;
+      max-height: 100%;
+      overflow: auto;
+      padding: 1em 2em;
+      border-bottom: 2px solid #ccc;
+      display: table;
+    }
+    
+    div.content {
+      
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .div-centeruser {
+      width: 400px;
+      height: 400px;
+      background-color: rgb(224, 230, 231);
+     
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      max-width: 100%;
+      max-height: 100%;
+      overflow: auto;
+      padding: 1em 2em;
+      border-bottom: 2px solid #ccc;
+      display: table;
+    }
+    
