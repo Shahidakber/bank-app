@@ -9,7 +9,7 @@ import { DataService } from '../services/data.service';
 })
 export class LoginComponent implements OnInit {
 
-accno="Enter Username"
+accno="Enter account number"
 pwd=""
 
 
@@ -34,6 +34,7 @@ login()
 {
   
   {
+   
     var accno =this.accno // var accno =this.uname
     let pwd = this.pwd   //let pwd = this.pwd
     var dataset=this.dataservice.accountDetails
